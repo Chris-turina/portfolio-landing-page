@@ -1,5 +1,7 @@
 img{
-  float: ;
+  float: none;
+  margin-bottom: 15px;
+  border: 10px solid orange;
 }
 h1{
   text-align: center;
@@ -12,10 +14,12 @@ h4{
 }
 
 body{
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bolder;
   text-align: center;
-  background-image: url(http://blogs.columbian.com/tailgate-talk/wp-content/uploads/sites/57/2014/07/New-Beavers-Logo.jpg);
-  background-size: auto;
+  background-image: url(http://www.csnnw.com/sites/csnnw/files/2017/02/01/oregonstatebeavers-reserstadium.jpg);
+  background-position: left;
+  background-size: cover;
   background-blend-mode: multiply;
   font-family: monospace;
 }
@@ -37,7 +41,7 @@ body{
 .box{
   text-shadow: 2px solid white;
   padding: 4px;
-  color: white;
+  color: blue;
   margin: 10;
   text-decoration: underline;
 }
@@ -58,9 +62,12 @@ body{
   background-color: white;
 }
 
-.para2{
-  color: gray;
-  margin: 10;
-  border: 2px solid gray;
-  padding: 4px;
+.spec{
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.under {
+  text-decoration: underline;
 }
